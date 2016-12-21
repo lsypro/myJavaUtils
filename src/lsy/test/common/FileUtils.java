@@ -10,10 +10,10 @@ public class FileUtils {
 	 */
 	public void mkDirInAppointFloder(String appointFloder , String needToCreate){
 		File file = new File(appointFloder);
-		String [] fileName = file.list();
-		for(String fileNames : fileName){
-			File file2 = new File(appointFloder+fileNames+needToCreate);
-			file2.mkdirs();
+		String [] fileNames = file.list();
+		for(String fileName : fileNames){
+			File floder = new File(appointFloder+fileName+needToCreate);
+			floder.mkdirs();
 		}
 	}
 }
