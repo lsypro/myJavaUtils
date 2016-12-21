@@ -4,9 +4,9 @@ import java.io.File;
 
 public class FileUtils {
 	/***
-	 * ´Ë·½·¨Ó¦ÓÃ³¡¾°ÔÚÄ³¸öÎÄ¼ş¼ĞÏÂÓĞ¶à¸öÎÄ¼ş¼Ğ£¬ÔÚÕâĞ©ÎÄ¼ş¼ĞÏÂĞèÒª´´½¨ÏàÍ¬½á¹¹µÄÎÄ¼ş¼Ğ
-	 * @param appointFloder  Ö¸¶¨Â·¾¶£¨Ä³¸öÎÄ¼ş¼Ğ£©eg : D:\\eg\\appointFloder
-	 * @param needToCreate  ĞèÒª´´½¨µÄÎÄ¼ş¼Ğ eg : \\needToCreate
+	 * æ­¤æ–¹æ³•åº”ç”¨åœºæ™¯åœ¨æŸä¸ªæ–‡ä»¶å¤¹ä¸‹æœ‰å¤šä¸ªæ–‡ä»¶å¤¹ï¼Œåœ¨è¿™äº›æ–‡ä»¶å¤¹ä¸‹éœ€è¦åˆ›å»ºç›¸åŒç»“æ„çš„æ–‡ä»¶å¤¹
+	 * @param appointFloder  æŒ‡å®šè·¯å¾„ï¼ˆæŸä¸ªæ–‡ä»¶å¤¹ï¼‰eg : D:\\eg\\appointFloder
+	 * @param needToCreate  éœ€è¦åˆ›å»ºçš„æ–‡ä»¶å¤¹ eg : \\needToCreate
 	 */
 	public void mkDirInAppointFloder(String appointFloder , String needToCreate){
 		File file = new File(appointFloder);
